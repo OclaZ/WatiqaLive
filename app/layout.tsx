@@ -39,7 +39,7 @@ export default function RootLayout({
             fontSans.variable
           )}
         >
-          {children}
+          <Provider>{children}</Provider>
         </body>
       </html>
     </ClerkProvider>
